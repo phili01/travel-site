@@ -25,3 +25,8 @@ gulp.task('cssInject',['styles'],function(){
 	return gulp.src("./app/temp/styles/styles.css")
 	.pipe(browserSync.stream());
 });
+
+
+gulp.task('htmls', function(){
+	console.log('from gulp watch');
+})
